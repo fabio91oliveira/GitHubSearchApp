@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_2">
+
+    <TextView
+        android:layout_gravity="end"
+        android:textSize="@dimen/text_size_2"
+        android:id="@+id/tv_created_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryGrey"
+        android:text="01/01/0001"/>
+
+
+    <LinearLayout
+        android:id="@+id/ll_principal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_margin="@dimen/margin_0"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_margin="@dimen/repo_item_avatar_margin"
+                android:id="@+id/iv_avatar"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/default_fulled_bg"/>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textSize="@dimen/text_size_2"
+                    android:id="@+id/tv_user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:text="Usuário"/>
+
+                <TextView
+                    android:singleLine="true"
+                    android:layout_marginLeft="4dp"
+                    android:drawableLeft="@drawable/ic_right_arrow_green"
+                    android:drawablePadding="4dp"
+                    android:textSize="@dimen/text_size_3"
+                    android:id="@+id/tv_pull_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorGreen"
+                    android:text="Título do Pull Request"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textSize="@dimen/text_size_2"
+                android:id="@+id/tv_pull_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_4"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Descrição do Pull Request"/>
+        </LinearLayout>
+
+        <View android:background="@color/colorGrey"
+            android:layout_width = "match_parent"
+            android:layout_marginTop="@dimen/margin_2"
+            android:layout_height="1dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

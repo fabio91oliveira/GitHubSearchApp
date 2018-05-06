@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Github Android</string>
+    <string name="toolbar_title">Github JavaPop</string>
+    <string name="error_title">Ops!</string>
+    <string name="error_message">Parece que ocorreu um erro.</string>
+    <string name="error_try_again">Tentar novamente</string>
+    <string name="pulls_detail_opened">%s abertos</string>
+    <string name="pulls_detail_closed">/ %s fechados</string>
+    <string name="internet_error_home">Você não está conectado à internet! \nTente mais tarde!</string>
+    <string name="internet_error_pull_open">Ocorreu um erro! \nTente mais tarde!</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#323236</color>
+    <color name="colorPrimaryDark">#09090a</color>
+    <color name="colorPrimaryGrey">#6c6c6e</color>
+    <color name="colorGrey">#c2c2c2</color>
+    <color name="colorSoftGrey">#e2e2e2</color>
+    <color name="cardViewColor">#ffffff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryWhite">#FFFFFF</color>
+
+    <color name="default_fulled_bg">#dddddd</color>
+
+    <color name="colorGold">#d9a114</color>
+
+    <color name="colorBlue">#0e68bc</color>
+    <color name="colorGreen">#1eaf21</color>
+
+</resources>

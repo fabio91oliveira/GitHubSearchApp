@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryWhite">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_view_height"
+        app:cardBackgroundColor="@color/cardViewColor"
+        app:cardElevation="@dimen/card_view_elevation"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_margin="@dimen/repo_item_avatar_margin"
+                    android:id="@+id/iv_avatar"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/default_fulled_bg"/>
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_marginTop="@dimen/margin_1"
+                        android:id="@+id/ph_tv_user_name"
+                        android:layout_width="@dimen/place_holder_text_width_user"
+                        android:layout_height="@dimen/place_holder_text_height"
+                        android:background="@color/default_fulled_bg" />
+
+                    <View
+                        android:layout_marginTop="@dimen/margin_1"
+                        android:id="@+id/tv_repository_name"
+                        android:layout_width="@dimen/place_holder_text_width_repository_name"
+                        android:layout_height="@dimen/place_holder_text_height"
+                        android:background="@color/default_fulled_bg" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/margin_1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_marginRight="@dimen/margin_4"
+                    android:layout_marginTop="@dimen/margin_2"
+                    android:id="@+id/ph_tv_repository_description"
+                    android:layout_width="@dimen/place_holder_text_width_repository_description"
+                    android:layout_height="@dimen/place_holder_text_height"
+                    android:background="@color/default_fulled_bg" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="@dimen/margin_1"
+                android:layout_marginBottom="@dimen/margin_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_gravity="bottom"
+                    android:id="@+id/ll_fork"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_marginTop="@dimen/margin_1"
+                        android:id="@+id/ph_tv_repository_fork"
+                        android:layout_width="@dimen/place_holder_text_width_repository_counter"
+                        android:layout_height="@dimen/place_holder_text_height"
+                        android:background="@color/default_fulled_bg" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_gravity="bottom"
+                    android:id="@+id/ll_watcher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_2"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_marginTop="@dimen/margin_1"
+                        android:id="@+id/ph_tv_repository_watcher"
+                        android:layout_width="@dimen/place_holder_text_width_repository_counter"
+                        android:layout_height="@dimen/place_holder_text_height"
+                        android:background="@color/default_fulled_bg" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
